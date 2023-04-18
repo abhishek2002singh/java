@@ -1,0 +1,2 @@
+  doubly ll=new doubly ();
+        
