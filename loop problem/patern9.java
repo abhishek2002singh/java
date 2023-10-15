@@ -5,6 +5,7 @@ public class patern9 {
         Scanner src=new Scanner(System.in);
         int n=src.nextInt();
         int m;
+        int p;
         for(int i=1;i<=n;i++)
         {
              m=1;
@@ -12,7 +13,7 @@ public class patern9 {
              {
                      if(j>=(i)&&j<=(2*n)-i){
                      System.out.print(m);
-                     int p= j<n? m++:m--;
+                      p= j<n? m++:m--;
                      }
                      else
                      System.out.print(" ");

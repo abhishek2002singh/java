@@ -41,13 +41,22 @@ public class removefirst{
         Node temp=head;
         while(temp!=null)
         {
-            System.out.println(temp.data + "->");
+            System.out.print(temp.data + "->");
             temp=temp.next;
         }
-        System.out.println();
+        System.out.println("null");
     }
 
     public  int removefirst3() {
+        // if(head==tail)
+        // {
+        //     int val=head.data;
+        //     head=tail=null;
+        //     return val;
+        // }
+        // int val=head.data;
+        // head=head.next;
+        // return val;
         if(head==tail)
         {
             int val=head.data;
